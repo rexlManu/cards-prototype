@@ -1,0 +1,17 @@
+{
+  "name": "cards",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.1.5"
+  },
+  "scripts": {
+    "build": "yarn tsc",
+    "watch": "yarn tsc -w",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@types/node": "^14.14.31"
+  }
+}
